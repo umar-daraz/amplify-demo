@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-umarblog-dev-131336-authRole",
+      "UnauthRoleArn": "arn:aws:iam::947743271187:role/amplify-umarblog-dev-131336-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::947743271187:role/amplify-umarblog-dev-131336-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-umarblog-dev-131336-deployment",
+      "UnauthRoleName": "amplify-umarblog-dev-131336-unauthRole",
+      "StackName": "amplify-umarblog-dev-131336",
+      "StackId": "arn:aws:cloudformation:us-east-1:947743271187:stack/amplify-umarblog-dev-131336/376c5eb0-93b7-11ec-b5b5-0a5b87387691",
+      "AmplifyAppId": "d2ed91k7phpj12"
+    },
+    "categories": {
+      "function": {
+        "postLambda": {
+          "deploymentBucketName": "amplify-umarblog-dev-131336-deployment",
+          "s3Key": "amplify-builds/postLambda-453462626c6b302f6b69-build.zip"
+        }
+      },
+      "auth": {
+        "umarblog": {},
+        "true": {}
+      },
+      "interactions": {
+        "productChatbot": {
+          "deploymentBucketName": "amplify-umarblog-dev-131336-deployment",
+          "s3Key": "amplify-builds/productChatbot-64646e77733168434847-build.zip"
+        }
+      }
+    }
+  }
+}
